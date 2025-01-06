@@ -16,28 +16,3 @@
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/progress/floating.css');
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/hoverglow.css');
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/glassy.css');
-
-/*Backdrop Mod*/
-.backdropImage {filter: saturate(120%) contrast(120%) brightness(10%) opacity(1) blur(1px);}
-
-/*Width for Audio/Video/Subtitle Tracks*/
-.trackSelections {max-width: 45em;}
-
-/*Login background*/
-#loginPage {background: url(https://i.imgur.com/9vL4iNf.png) !important;}
-
-/*Accent and rounding*/
-:root {--accent: 98, 121, 205;}
-:root {--rounding: 12px;}
-
-/*Detail screen Dark Info background with small blur*/
-.layout-desktop .detailPagePrimaryContainer {
-background: rgba(7, 8, 14, 0.9);
-}
-.layout-desktop .detailPageSecondaryContainer {
-background: rgba(0, 0, 0, 0.5);
-backdrop-filter: blur(18px);
-}
-.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.semiTransparent {
-background-color: rgba(0, 0, 0, 0.0) !important;
-}
