@@ -5,4 +5,6 @@
  
 
  Put this into the CSS section in Jellyfin:
+ ```
  @import url('https://cdn.jsdelivr.net/gh/v1rusnl/UltrachromicMod/UltrachromicModded.css');
+ ```
